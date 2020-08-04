@@ -1,0 +1,16 @@
+############################# About ###################################
+start:
+  enable : true
+  title : OpenColorIO
+  about_item :
+  - icon : ti-user # themify icon pack : https://themify.me/themify-icons
+    title : For Artists
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-video-clapper # themify icon pack : https://themify.me/themify-icons
+    title : For Studios
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+
+  - icon : ti-image # themify icon pack : https://themify.me/themify-icons
+    title : For Software
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
