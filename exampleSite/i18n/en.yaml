@@ -1,9 +1,9 @@
 - id: blogTitle
-  translation: Latest Post
+  translation: Blog
 - id: readMore
   translation: Read more
 - id: viewAllPost
-  translation: View All Post
+  translation: View All Posts
 - id: share
   translation: Share
 - id: aboutAuthor
@@ -12,19 +12,21 @@
   translation: Author's posts
 - id: all
   translation: All
-- id: about
-  translation: About Us
-- id: services
-  translation: Service
-- id: portfolio
-  translation: Portfolio
-- id: team
-  translation: Team
+- id: start
+  translation: Get Started
+- id: supported_apps
+  translation: Supported Applications
+- id: news
+  translation: News
 - id: pricing
   translation: Pricing
 - id: blog
   translation: Blog
 - id: contact
   translation: Contact
-- id: themefisher
-  translation: Themefisher
+- id: github
+  translation: Github
+- id: downloads
+  translation: Downloads
+- id: documentation
+  translation: Documentation

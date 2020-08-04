@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://examplesite.com"
-title = "Meghna"
+title = "OpenColorIO"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -9,7 +9,7 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = ["fr"]
 
 ############################# Plugins ##########################
 # css plugins
@@ -41,53 +41,58 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 
 ############################# Navigation ##################################
+
+
 [[menu.main]]
-name = "about"
-URL = "about"
+name = "start"
+URL = "start"
 weight = 1
 
 [[menu.main]]
-name = "services"
-URL = "services"
+name = "news"
+URL = "news"
 weight = 2
 
 [[menu.main]]
-name = "portfolio"
-URL = "portfolio"
+name = "supported_apps"
+URL = "supported_apps"
 weight = 3
-
-[[menu.main]]
-name = "team"
-URL = "team"
-weight = 4
-
-[[menu.main]]
-name = "pricing"
-URL = "pricing"
-weight = 5
 
 [[menu.main]]
 name = "blog"
 URL = "blog"
-weight = 6
+weight = 4
 
 [[menu.main]]
 name = "contact"
 URL = "contact"
-weight = 7
+weight = 8
+
+[[menu.static]]
+name ="documentation"
+URL = "https://opencolorio.readthedocs.io/en/latest/"
+weight = 5
 
 #### external / static link ####
 [[menu.static]]
-name = "themefisher"
-URL = "https://themefisher.com/"
-weight = 8
+name = "github"
+URL = "https://github.com/AcademySoftwareFoundation/OpenColorIO"
+weight = 6
+
+[[menu.static]]
+name = "downloads"
+URL = "https://opencolorio.readthedocs.io/en/latest/quick_start/downloads.html"
+weight = 7
+
+
+
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/opencolorio-color.png"
 # Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+description = "Open Source Color Management"
+author = "OpenColorIO Contributors"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -96,40 +101,40 @@ post_share = true
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images/opencolorio-color.png"
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 
 ############################# social icons ##########################
-[[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+##[[params.social]]
+##icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+##link = "#"
 
-[[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+##[[params.social]]
+##icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+##link = "#"
 
-[[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+##[[params.social]]
+##icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+##link = "#"
 
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+##[[params.social]]
+##icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+##link = "#"
 
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+##[[params.social]]
+##icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+##link = "#"
 
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+##[[params.social]]
+##icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+##link = "https://github.com/AcademySoftwareFoundation/OpenColorIO"
 
 
 ################################ English Language ########################
