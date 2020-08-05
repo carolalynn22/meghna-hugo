@@ -8,16 +8,24 @@ contact:
   # Contact details
   contact_list:
     - icon : ti-comment # themify icon pack : https://themify.me/themify-icons
-      info : "Slack: OpenColorIO"
+      name: "Slack:"
+      info : "OpenColorIO"
+      link: "http://slack.opencolorio.org"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "OCIO-User: ocio-user@lists.aswf.io"
+      name: "OCIO-User:"
+      info : "ocio-user@lists.aswf.io"
+      link: "https://lists.aswf.io/g/ocio-user"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "OCIO-Dev: ocio-dev@lists.aswf.io"
+      name: "OCIO-Dev:"
+      info : "ocio-dev@lists.aswf.io"
+      link: "https://lists.aswf.io/g/ocio-dev"
     
     - icon : ti-github # themify icon pack : https://themify.me/themify-icons
-      info : "Github Issue"
+      name: "Github:"
+      info : "Open an issue"
+      link: "https://github.com/AcademySoftwareFoundation/OpenColorIO/issues"
 
   # Contact form
   contact_form:
