@@ -421,6 +421,11 @@ a:hover {
   color: #FA2742;
 }
 
+.nav-link:hover {
+  color: #b62437  !important;
+  transition: all .3s ease-in 0s;
+}
+
 .navbar-toggler:focus {
   outline: 0;
 }
@@ -490,7 +495,7 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 90px;
+  font-size: 150px;
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
@@ -874,7 +879,6 @@ a:hover {
   background: #dcdcdc;
   display: inline-block;
   font-size: 16px;
-  padding: 6px 20px;
   font-weight: 700;
   color: #525252;
   transition: .3s all;
