@@ -4,24 +4,24 @@ news:
   image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
   title : OCIO v2 is here!
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  content : "Here's just a few highlights of new features:"
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : New GPU Renderer
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : The GPU renderer now matches the CPU and may be used to render final frames!
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Better User Experience
+      icon : ti-brush # themify icon pack : https://themify.me/themify-icons
+      content : Config authors have new tools to organize color spaces by category, hide color spaces, and define hierarchical menus.  New File and Viewing Rules allow more powerful default behaviors.
 
       # feature item loop
-    - title : SEO Optimized
+    - title : Improved ACES Support
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : ACES Output Transforms no longer use 3d-LUTs and are accurate even for extreme exposure values.  There is also full read and write support for the Academy/ASC Common LUT Format (CLF).
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Analysis Tools
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : There are new command line tools for evaluating LUTs, converting to CLF, serializing OCIO Processors, and more!

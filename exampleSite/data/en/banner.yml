@@ -5,8 +5,7 @@ banner:
   ##bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "OpenColorIO"
-  content : "A complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation.
-  Video will go here..."
+  content : "A complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation."
   button:
     enable : true
     label : "Get Started"

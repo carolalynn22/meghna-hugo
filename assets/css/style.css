@@ -13,9 +13,9 @@ html {
 }
 
 body {
-  background-color: #353b43;
+  background-color: #efefef;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #525252;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -26,12 +26,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  font-family: "Raleway", sans-serif;
+  color: #525252;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -48,12 +48,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #57cbcc;
+  background: #FA2742;
 }
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #FA2742;
 }
 
 hr {
@@ -65,7 +65,7 @@ figure {
 }
 
 a {
-  color: #fff;
+  color: #efefef;
   transition: all .3s ease-in 0s;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 
 .btn {
   background-color: transparent;
-  color: #fff;
+  color: #efefef;
   padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #FA2742;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #FA2742;
 }
 
 .color {
@@ -163,11 +163,11 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: #efefef;
 }
 
 .bg-dark {
-  background: #242930;
+  background: #dcdcdc;
 }
 
 .parallax-section {
@@ -215,11 +215,11 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: #FA2742;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -229,8 +229,8 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
-  color: #fff;
+  background: #525252;
+  color: #efefef;
 }
 
 .mt-20 {
@@ -303,11 +303,11 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: #525252;
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .title p {
@@ -323,7 +323,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #dcdcdc;
 }
 
 .overly {
@@ -352,7 +352,7 @@ a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .slick-slide {
@@ -407,16 +407,18 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #efefef;
   width: 100%;
   margin-bottom: 0;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+  color: #525252;
+}
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .navbar-toggler:focus {
@@ -474,7 +476,7 @@ a:hover {
 
 .hero-area .block .video-button {
   background: #fff;
-  color: #57cbcc;
+  color: #FA2742;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -561,15 +563,15 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #242930;
-  padding: 30px;
+  background: #dcdcdc;
+  padding: 20px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #FA2742;
 }
 
 .about .block:hover .icon-box {
@@ -582,10 +584,9 @@ a:hover {
   width: 160px;
   height: 92.38px;
   background-color: transparent;
-  margin: 46.19px auto 60px;
-  padding: 20px 0;
-  border-left: 2px solid rgba(236, 239, 241, 0.07);
-  border-right: 2px solid rgba(236, 239, 241, 0.07);
+  color: #FA2742;
+  margin: 30px auto 25px;
+  padding: 10px 0;
   font-size: 50px;
   -webkit-transform: translateZ(0px);
   transform: translateZ(0px);
@@ -610,14 +611,10 @@ a:hover {
 
 .about .block .icon-box:before {
   top: -56.5685px;
-  border-top: 2px solid rgba(236, 239, 241, 0.07);
-  border-right: 2px solid rgba(236, 239, 241, 0.07);
 }
 
 .about .block .icon-box:after {
   bottom: -56.5685px;
-  border-bottom: 2px solid rgba(236, 239, 241, 0.07);
-  border-left: 2px solid rgba(236, 239, 241, 0.07);
 }
 
 .about .block .icon-box h3 {
@@ -641,7 +638,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .about-2 .content-block .media h4 {
@@ -721,12 +718,12 @@ a:hover {
 
 .form-meghna input:hover,
 .form-meghna textarea:hover {
-  border-color: #57cbcc;
+  border-color: #FA2742;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #FA2742;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -823,7 +820,7 @@ a:hover {
 }
 
 .price-title h3 {
-  color: #57cbcc;
+  color: #FA2742;
   margin: 0 0 10px;
   text-transform: uppercase;
 }
@@ -834,7 +831,7 @@ a:hover {
 }
 
 .price-title .value {
-  color: #57cbcc;
+  color: #FA2742;
   font-size: 30px;
 }
 
@@ -873,18 +870,22 @@ a:hover {
 
 .portfolio-filter .btn {
   outline: 0;
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  background: transparent;
+  border: 1px solid #efefef;
+  background: #dcdcdc;
   display: inline-block;
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: #525252;
   transition: .3s all;
 }
 
 .portfolio-filter .btn.active {
-  border-color: #57cbcc;
+  border-color: #FA2742;
+}
+
+.portfolio-filter .btn.focus {
+color: #fa2742
 }
 
 .portfolio-block {
@@ -893,7 +894,7 @@ a:hover {
 
 .portfolio-block:before {
   transition: all 0.3s ease-in-out;
-  background: white;
+  background: #efefef;
   opacity: 0;
   top: 20px;
   right: 20px;
@@ -943,7 +944,7 @@ a:hover {
 }
 
 .portfolio-block .caption .search-icon {
-  background: #57cbcc;
+  background: #FA2742;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -989,13 +990,13 @@ a:hover {
 
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #57cbcc none repeat scroll 0 0;
+  background: #FA2742 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1028,7 +1029,7 @@ a:hover {
 }
 
 .skill-bar .progress .progress-bar {
-  background: #57cbcc;
+  background: #FA2742;
 }
 
 /*=================================================================
@@ -1107,7 +1108,7 @@ a:hover {
 
 .member-photo .mask ul li a:hover {
   background-color: #fff;
-  color: #57cbcc;
+  color: #FA2742;
   border: 1px solid transparent;
 }
 
@@ -1188,7 +1189,7 @@ a:hover {
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-  background-color: #57cbcc;
+  background-color: #FA2742;
   border: 2px solid transparent;
 }
 
@@ -1229,12 +1230,12 @@ a:hover {
   Latest Posts
 ==================================================================*/
 .note {
-  background-color: #292F36;
+  background-color: #dcdcdc;
   border: 1px solid #4e595f;
 }
 
 .post-block {
-  background-color: #292F36;
+  background-color: #dcdcdc;
   margin-bottom: 10px;
 }
 
@@ -1282,7 +1283,7 @@ a:hover {
 }
 
 .post-meta a {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .post-meta>span {
@@ -1343,7 +1344,7 @@ a:hover {
 }
 
 .next-prev a:hover {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .next-prev .prev-post i {
@@ -1366,7 +1367,7 @@ a:hover {
 }
 
 .social-profile ul li a i:hover {
-  color: #57cbcc;
+  color: #FA2742;
 }
 
 .comments-section {
@@ -1414,7 +1415,7 @@ a:hover {
 }
 
 .comment-wrap .media .media-heading a {
-  color: #57cbcc;
+  color: #FA2742;
   font-size: 13px;
 }
 
@@ -1441,7 +1442,7 @@ a:hover {
 .comment-reply-form input:focus,
 .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #57cbcc;
+  border: 1px solid #FA2742;
 }
 
 .comment-reply-form textarea,
@@ -1543,7 +1544,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #57cbcc;
+  background: #FA2742;
 }
 
 .social-icon ul li a:hover i {
@@ -1586,8 +1587,8 @@ input#e-mail,
 }
 
 #scrollUp:hover {
-  background-color: #57cbcc;
-  border: 1px solid #57cbcc;
+  background-color: #FA2742;
+  border: 1px solid #FA2742;
 }
 
 /*=================================================================
@@ -2013,7 +2014,7 @@ blockquote {
 }
 
 .form-control-meghna .form-control:focus {
-  border-color: #57cbcc;
+  border-color: #FA2742;
   box-shadow: 0 0 0 0.2rem rgba(0, 174, 255, 0.432);
 }
 
@@ -2267,8 +2268,8 @@ figcaption {
 }
 
 .pagination .page-item .page-link:hover {
-  background: #57cbcc;
-  border-color: #57cbcc;
+  background: #FA2742;
+  border-color: #FA2742;
   color: #fff
 }
 
@@ -2278,9 +2279,9 @@ figcaption {
 }
 
 .pagination .page-item.active .page-link {
-  background: #57cbcc;
+  background: #FA2742;
   color: #fff;
-  border-color: #57cbcc;
+  border-color: #FA2742;
 }
 
 #select-language {

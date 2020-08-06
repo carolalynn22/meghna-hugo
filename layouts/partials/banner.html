@@ -14,7 +14,13 @@
 		</div>
 		{{ end }}
 		<h1>{{ .title | markdownify }}</h1>
+		<!-- <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" /> -->
+		<div class="row justify-content-center" style="padding: 20px;">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/8z61RZhvKQ8" frameborder="0" 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 		<p>{{ .content | markdownify }}</p>
+		
 		{{ if .button.enable }}
 		{{ with .button }}
 		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>

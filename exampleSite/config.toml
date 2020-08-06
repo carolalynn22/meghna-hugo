@@ -89,7 +89,7 @@ weight = 7
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/opencolorio-color.png"
+logo = "images/ocio_ocio_m.png"
 # Meta data
 description = "Open Source Color Management"
 author = "OpenColorIO Contributors"
@@ -100,7 +100,7 @@ post_share = true
 
 # preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/opencolorio-color.png"
 
 # google map
