@@ -426,8 +426,14 @@ a:hover {
   transition: all .3s ease-in 0s;
 }
 
+.navbar-dark .navbar-toggler {
+  color: #525252;
+}
 .navbar-toggler:focus {
   outline: 0;
+}
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(82,82,82, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .bg-1 {
@@ -495,7 +501,7 @@ a:hover {
 }
 
 .hero-area .block h1 {
-  font-size: 150px;
+  font-size: 10vw;
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;
@@ -577,6 +583,10 @@ a:hover {
 
 .about .block:hover {
   border-bottom: 2px solid #FA2742;
+}
+
+.about a {
+  color: #525252;
 }
 
 .about .block:hover .icon-box {
@@ -755,6 +765,15 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.con-info a {
+  color: #525252;
+  text-decoration: underline;
+}
+
+.con-info a:hover {
+  color: #FA2742;
+}
+
 .con-info i,
 .con-info span {
   padding-right: 5px;
@@ -873,6 +892,10 @@ a:hover {
   text-align: center;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .portfolio-filter .btn {
   outline: 0;
   border: 1px solid #efefef;
@@ -882,6 +905,10 @@ a:hover {
   font-weight: 700;
   color: #525252;
   transition: .3s all;
+}
+
+.portfolio-filter .btn:hover {
+  color:#b62437;
 }
 
 .portfolio-filter .btn.active {
@@ -1568,7 +1595,16 @@ input#e-mail,
 
 .copyright {
   padding: 20px 0;
-  color: #fff;
+  color: #bdbdbd;
+}
+
+.copyright-aswf {
+  color: #525252;
+  font-size: small;
+}
+
+.copyright-aswf a {
+  color: #525252;
 }
 
 .copyright img {

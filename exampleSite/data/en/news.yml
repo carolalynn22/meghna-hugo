@@ -1,8 +1,7 @@
 ############################# feature ###################################
 news:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
+  image : images/SpiderVerse_pmm014.1014_lm_v1.jpg
   title : OCIO v2 is here!
   content : "Here's just a few highlights of new features:"
   feature_item : 

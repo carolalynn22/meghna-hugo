@@ -1,11 +1,11 @@
 {{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="section-bg">
+<footer id="footer">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-xl-12">
 
 				{{"<!-- Footer Social Links -->" | safeHTML}}
-				<div class="social-icon">
+				<div class="social-icon">					
 					<ul class="list-inline">
 						{{ range site.Params.social }}
 						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
@@ -16,10 +16,20 @@
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ site.Home.Permalink }}">
-						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
+						<img src="{{ site.Params.aswf_logo | absURL }}" alt="{{ site.Title }}" height="42" />
 					</a>
 					<br>
-					<p>{{ site.Params.copyright | markdownify }}</p>
+					<div class="copyright-aswf">Documentation Distributed under CC BY 4.0
+LF Projects, LLC uses various trademarks. For our trademark, privacy and antitrust policies, code of conduct, and terms of use, please click the applicable link below or see https://www.lfprojects.org.
+					</div>
+					<ul class="d-flex justify-content-center list-unstyled ml-auto">
+					{{ range site.Params.aswf }}
+					<li class="nav-item">
+						<a class="copyright-aswf pl-2 pr-2" href= "{{ .link }}">{{ .name }}</a>
+					</li>
+					{{ end }}
+				</ul>
+					<p class="pt-3 pb-3">{{ site.Params.copyright | markdownify }}</p>
 				</div>
 			</div>
 		</div>
