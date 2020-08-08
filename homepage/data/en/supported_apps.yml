@@ -5,112 +5,112 @@ supported_apps:
   portfolio_item :
     # portfolio item loop
     - name : Adobe After Effects
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
+      image : images/supported_apps/portfolio-1.jpg
+      image_webp : images/supported_apps/portfolio-1.webp
       categories : ["2D", "Compositing"]
       content : OCIO plugin courtesy of fnordware.
       link : "http://www.fnordware.com/OpenColorIO"
       
     # portfolio item loop
     - name : Blender
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/supported_apps/portfolio-2.jpg
+      image_webp : images/supported_apps/portfolio-2.webp
       categories : ["3D"]
       content : Open Source 3D Application. Version 2.64 and up.
       link : "http://www.blender.org/"
       
     # portfolio item loop
     - name : Krita
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
+      image : images/supported_apps/portfolio-3.jpg
+      image_webp : images/supported_apps/portfolio-3.webp
       categories : ["2D", "Paint"]
       content : 2D Open Source Paint Software
       link : "http://www.krita.org/"
       
     # portfolio item loop
     - name : Silhouette
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
+      image : images/supported_apps/portfolio-4.jpg
+      image_webp : images/supported_apps/portfolio-4.webp
       categories : ["2D", "Roto", "Paint"]
       content : Roto, Paint, and Keying Software. Version 4.5 and up.
       link : "http://www.silhouettefx.com/silhouette"
       
     # portfolio item loop
     - name : Nuke
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
+      image : images/supported_apps/portfolio-5.jpg
+      image_webp : images/supported_apps/portfolio-5.webp
       categories : ["2D", "Compositing"]
       content : Nuke ships with native OCIO support and several default configuration options.
       link : "http://www.thefoundry.co.uk/products/nuke"
       
     # portfolio item loop
     - name : Mari
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
+      image : images/supported_apps/portfolio-6.jpg
+      image_webp : images/supported_apps/portfolio-6.webp
       categories : ["3D", "Paint"]
       content : Native support in version 1.4 and up.
       link : "http://www.thefoundry.co.uk/products/mari"
       
     # portfolio item loop
     - name : Katana
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
+      image : images/supported_apps/portfolio-7.jpg
+      image_webp : images/supported_apps/portfolio-7.webp
       categories : ["3D", "Lighting", "Look Dev"]
       content : 3D Lighting and Lookdev.
       link : "http://www.thefoundry.co.uk/products/katana"
       
     # portfolio item loop
     - name : Heiro
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/supported_apps/portfolio-8.jpg
+      image_webp : images/supported_apps/portfolio-8.webp
       categories : ["Review"]
       content : Conform and Review tool with native support.
       link : "http://www.thefoundry.co.uk/products/hiero"
       
     # portfolio item loop
     - name : Adobe Photoshop
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+      image : images/supported_apps/portfolio-2.jpg
+      image_webp : images/supported_apps/portfolio-2.webp
       categories : ["2D", "Photography", "Paint"]
       content : Available via ICC profiles.
       link : "#"
 
     # portfolio item loop
     - name : OpenImageIO
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/supported_apps/portfolio-8.jpg
+      image_webp : images/supported_apps/portfolio-8.webp
       categories : ["2D", "Photography"]
       content : Available in current code, and integrated with mipmap generation.
       link : "http://openimageio.org/"
 
     # portfolio item loop
     - name : Vegas Pro
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/supported_apps/portfolio-8.jpg
+      image_webp : images/supported_apps/portfolio-8.webp
       categories : ["Editing"]
       content : Supported in version 12 and up.
       link : "http://www.sonycreativesoftware.com/vegaspro"
 
     # portfolio item loop
     - name : RV
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/supported_apps/portfolio-8.jpg
+      image_webp : images/supported_apps/portfolio-8.webp
       categories : ["Review"]
       content : Review and Playback tool with native support.
       link : "http://www.tweaksoftware.com/"
 
     # portfolio item loop
     - name : Gaffer
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/supported_apps/portfolio-8.jpg
+      image_webp : images/supported_apps/portfolio-8.webp
       categories : ["3D", "Lighting", "Look Dev"]
       content : Open Source Lighting and Lookdev. 
       link : "http://gafferhw.org/"
 
     # portfolio item loop
     - name : CryEngine3 (Beta)
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+      image : images/supported_apps/portfolio-8.jpg
+      image_webp : images/supported_apps/portfolio-8.webp
       categories : ["Game Engine"]
       content : Real-time game engine.
       link : "http://www.tweaksoftware.com/"

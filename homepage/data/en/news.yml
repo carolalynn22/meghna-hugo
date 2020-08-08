@@ -3,7 +3,7 @@ news:
   enable : true
   image : images/SpiderVerse_pmm014.1014_lm_v1.jpg
   title : OCIO v2 is here!
-  content : "Here's just a few highlights of new features:"
+  content : "Check out our [guide](https://opencolorio.readthedocs.io/en/latest/upgrading_v2/_index.html#migrating-to-v2) for upgrading, and just a few highlights of new features:"
   feature_item : 
       # feature item loop
     - title : New GPU Renderer
