@@ -48,12 +48,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #FA2742;
+  background: #cc1e68;
 }
 
 ::selection {
   color: #fff;
-  background: #FA2742;
+  background: #cc1e68;
 }
 
 hr {
@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #FA2742;
+  background-color: #cc1e68;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #FA2742;
+  background-color: #cc1e68;
 }
 
 .color {
@@ -215,11 +215,11 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .btn-main {
-  background: #FA2742;
+  background: #cc1e68;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -307,7 +307,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .title p {
@@ -352,7 +352,7 @@ a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .slick-slide {
@@ -418,11 +418,11 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .nav-link:hover {
-  color: #b62437  !important;
+  color: #9e144f  !important;
   transition: all .3s ease-in 0s;
 }
 
@@ -487,7 +487,7 @@ a:hover {
 
 .hero-area .block .video-button {
   background: #fff;
-  color: #FA2742;
+  color: #cc1e68;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -582,7 +582,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #FA2742;
+  border-bottom: 2px solid #cc1e68;
 }
 
 .about a {
@@ -599,7 +599,7 @@ a:hover {
   width: 160px;
   height: 92.38px;
   background-color: transparent;
-  color: #FA2742;
+  color: #cc1e68;
   margin: 30px auto 25px;
   padding: 10px 0;
   font-size: 50px;
@@ -653,7 +653,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .about-2 .content-block .media h4 {
@@ -662,11 +662,11 @@ a:hover {
 }
 
 .about-2 a {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .about-2 a:hover{
-  color: #b62437;
+  color: #9e144f;
 }
 
 /*=================================================================
@@ -741,12 +741,12 @@ a:hover {
 
 .form-meghna input:hover,
 .form-meghna textarea:hover {
-  border-color: #FA2742;
+  border-color: #cc1e68;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #FA2742;
+  background: #cc1e68;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -779,7 +779,7 @@ a:hover {
 }
 
 .con-info a:hover {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .con-info i,
@@ -852,7 +852,7 @@ a:hover {
 }
 
 .price-title h3 {
-  color: #FA2742;
+  color: #cc1e68;
   margin: 0 0 10px;
   text-transform: uppercase;
 }
@@ -863,7 +863,7 @@ a:hover {
 }
 
 .price-title .value {
-  color: #FA2742;
+  color: #cc1e68;
   font-size: 30px;
 }
 
@@ -916,15 +916,15 @@ a:hover {
 }
 
 .portfolio-filter .btn:hover {
-  color:#b62437;
+  color:#9e144f;
 }
 
 .portfolio-filter .btn.active {
-  border-color: #FA2742;
+  border-color: #cc1e68;
 }
 
 .portfolio-filter .btn.focus {
-color: #fa2742
+color: #cc1e68
 }
 
 .portfolio-block {
@@ -989,7 +989,7 @@ color: #fa2742
 }
 
 .portfolio-block .caption .search-icon {
-  background: #FA2742;
+  background: #cc1e68;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -1035,13 +1035,13 @@ color: #fa2742
 
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background: #FA2742 none repeat scroll 0 0;
+  background: #cc1e68 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1074,7 +1074,7 @@ color: #fa2742
 }
 
 .skill-bar .progress .progress-bar {
-  background: #FA2742;
+  background: #cc1e68;
 }
 
 /*=================================================================
@@ -1153,7 +1153,7 @@ color: #fa2742
 
 .member-photo .mask ul li a:hover {
   background-color: #fff;
-  color: #FA2742;
+  color: #cc1e68;
   border: 1px solid transparent;
 }
 
@@ -1234,7 +1234,7 @@ color: #fa2742
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-  background-color: #FA2742;
+  background-color: #cc1e68;
   border: 2px solid transparent;
 }
 
@@ -1328,7 +1328,7 @@ color: #fa2742
 }
 
 .post-meta a {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .post-meta>span {
@@ -1389,7 +1389,7 @@ color: #fa2742
 }
 
 .next-prev a:hover {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .next-prev .prev-post i {
@@ -1412,7 +1412,7 @@ color: #fa2742
 }
 
 .social-profile ul li a i:hover {
-  color: #FA2742;
+  color: #cc1e68;
 }
 
 .comments-section {
@@ -1460,7 +1460,7 @@ color: #fa2742
 }
 
 .comment-wrap .media .media-heading a {
-  color: #FA2742;
+  color: #cc1e68;
   font-size: 13px;
 }
 
@@ -1487,7 +1487,7 @@ color: #fa2742
 .comment-reply-form input:focus,
 .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #FA2742;
+  border: 1px solid #cc1e68;
 }
 
 .comment-reply-form textarea,
@@ -1589,7 +1589,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #FA2742;
+  background: #cc1e68;
 }
 
 .social-icon ul li a:hover i {
@@ -1641,8 +1641,8 @@ input#e-mail,
 }
 
 #scrollUp:hover {
-  background-color: #FA2742;
-  border: 1px solid #FA2742;
+  background-color: #cc1e68;
+  border: 1px solid #cc1e68;
 }
 
 /*=================================================================
@@ -2068,7 +2068,7 @@ blockquote {
 }
 
 .form-control-meghna .form-control:focus {
-  border-color: #FA2742;
+  border-color: #cc1e68;
   box-shadow: 0 0 0 0.2rem rgba(0, 174, 255, 0.432);
 }
 
@@ -2322,8 +2322,8 @@ figcaption {
 }
 
 .pagination .page-item .page-link:hover {
-  background: #FA2742;
-  border-color: #FA2742;
+  background: #cc1e68;
+  border-color: #cc1e68;
   color: #fff
 }
 
@@ -2333,9 +2333,9 @@ figcaption {
 }
 
 .pagination .page-item.active .page-link {
-  background: #FA2742;
+  background: #cc1e68;
   color: #fff;
-  border-color: #FA2742;
+  border-color: #cc1e68;
 }
 
 #select-language {
