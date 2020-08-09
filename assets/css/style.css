@@ -929,6 +929,7 @@ color: #fa2742
 
 .portfolio-block {
   position: relative;
+  font-size: x-small;
 }
 
 .portfolio-block:before {
@@ -950,6 +951,11 @@ color: #fa2742
 
 .portfolio-block:hover:before {
   opacity: 1;
+}
+
+.portfolio .col-lg-4{
+  flex: 0 0 20%;
+  max-width: 20%;
 }
 
 .portfolio-block:hover .caption h4 {
