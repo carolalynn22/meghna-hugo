@@ -1,9 +1,8 @@
 ############################### Banner ################################
 banner:
   enable : true
-  ##bg_image_webp : "images/backgrounds/hero-area.webp"
-  ##bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
+  logo : "images/ocio_full_w@4x.png"
   title : "OpenColorIO"
   content : "A complete color management solution geared towards motion picture production with an emphasis on visual effects and computer animation."
   button:

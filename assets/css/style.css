@@ -472,7 +472,7 @@ a:hover {
 
 .hero-area:before {
   content: '';
-  background: rgba(0, 0, 0, 0.63);
+  background: rgba(0, 0, 0, 0.33);
   position: absolute;
   top: 0;
   right: 0;
@@ -514,11 +514,21 @@ a:hover {
   }
 }
 
+.hero-area .block img {
+  max-width: 100%;
+  height: auto;
+  padding: 0 20px;
+}
+
 .hero-area .block p {
   color: #fff;
   font-size: 20px;
   width: 70%;
   margin: 0 auto;
+}
+
+.hero-area .block a {
+  margin-bottom: 5rem;
 }
 
 .hero-area .block .btn-transparent {
